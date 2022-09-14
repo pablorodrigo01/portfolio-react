@@ -27,12 +27,12 @@ const About = () => {
             <article className="about__card">
               <HiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>Sem Emprego!</small>
+              <small>Open to Work</small>
             </article>
             <article className="about__card">
               <AiFillFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ (In)Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
