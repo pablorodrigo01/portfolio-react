@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import { MdEmail } from "react-icons/md";
-import { BsMessenger } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -38,6 +37,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
+<<<<<<< HEAD
             <BsMessenger className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Pablo Rodrigo</h5>
@@ -49,6 +49,8 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
+=======
+>>>>>>> fb7329acf1832f2e613a9ffa2dc2c3641d9e8366
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+55 (12) 99257-7342</h5>
