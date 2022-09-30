@@ -1,11 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 const Portfolio = () => {
   return (
@@ -18,13 +17,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This a portfolio item title</h3>
+          <h3>Interactive Rating</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/pablorodrigo01/interactive-rating-component"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://interactive-rating-component-frontend.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -36,13 +39,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This a portfolio item title</h3>
+          <h3>Netflix Clone</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/pablorodrigo01/netflix-clone"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/pablorodrigo01/netflix-clone"
               className="btn btn-primary"
               target="_blank"
             >
@@ -54,13 +61,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This a portfolio item title</h3>
+          <h3>Digital Clock</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/pablorodrigo01/digital-clock"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/pablorodrigo01/digital-clock"
               className="btn btn-primary"
               target="_blank"
             >
@@ -72,13 +83,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This a portfolio item title</h3>
+          <h3>Pokedex</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/pablorodrigo01/pokedex"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/pablorodrigo01/pokedex"
               className="btn btn-primary"
               target="_blank"
             >
@@ -90,31 +105,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This a portfolio item title</h3>
+          <h3>Simple CRUD</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://github.com"
-              className="btn btn-primary"
+              href="https://github.com/pablorodrigo01/simple_crud"
+              className="btn"
               target="_blank"
             >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article>
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>This a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/pablorodrigo01/simple_crud"
               className="btn btn-primary"
               target="_blank"
             >

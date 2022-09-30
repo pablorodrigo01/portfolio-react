@@ -42,7 +42,7 @@ const Contact = () => {
             <h4>Messenger</h4>
             <h5>Pablo Rodrigo</h5>
             <a
-              href="https://m.me/"
+              href="https://m.me/pablorodrigo.demendoncagoncalves.7"
               target="_blank"
             >
               Send a message
@@ -51,7 +51,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
+            <h5>+55 (12) 99257-7342</h5>
             <a
               href="https://api.whatsapp.com/send?phone=5512992577342"
               target="_blank"
