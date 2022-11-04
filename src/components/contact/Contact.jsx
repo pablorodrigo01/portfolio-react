@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsMessenger } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
