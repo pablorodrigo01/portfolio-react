@@ -1,7 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsDribbble } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
@@ -11,9 +10,6 @@ const HeaderSocials = () => {
       </a>
       <a href="https://github.com/pablorodrigo01" target="_blank">
         <BsGithub />
-      </a>
-      <a href="https://dribbble.com" target="_blank">
-        <BsDribbble />
       </a>
     </div>
   );
