@@ -37,10 +37,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a velit
-            sem. Vivamus vitae semper nunc. Integer efficitur ipsum nec enim
-            mattis commodo. Vestibulum tincidunt dui purus, vel aliquam magna
-            rhoncus hendrerit. Maecenas id lorem urna.
+            Ability to use any necessary software, ease in developing visual
+            projects and learning. Communicative, flexible, perfectionist.
           </p>
 
           <a href="#contact" className="btn btn-primary">
