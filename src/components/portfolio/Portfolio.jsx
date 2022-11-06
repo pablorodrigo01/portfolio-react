@@ -5,6 +5,7 @@ import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.png";
 
 const Portfolio = () => {
   return (
@@ -49,7 +50,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/pablorodrigo01/netflix-clone"
+              href="https://study-netflix-clone.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -71,7 +72,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/pablorodrigo01/digital-clock"
+              href="https://digital-clock-orange.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -93,7 +94,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/pablorodrigo01/pokedex"
+              href="https://search-your-pokemon.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -115,7 +116,29 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/pablorodrigo01/simple_crud"
+              href="https://simple-crud-test.netlify.app"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Country Info</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/pablorodrigo01/country_info"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://search-country-info.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
